@@ -9,4 +9,60 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  background-color: rgb(44, 138, 75);
+}
+
+.reset {
+  margin-top: 4rem;
+  margin-bottom: -1rem;
+  font-size: 1rem;
+  font-family: 'Aldrich', sans-serif;
+  border-radius: 6px;
+}
+
+.hide-me {
+  display: none;
+}
+
+.top-section {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: -4rem;
+}
+
+.player-one-section {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-around;
+  margin: 13rem 35rem 0rem 35rem;
+  align-items: center;
+}
+
+.button {
+  display: flex;
+  justify-content: space-around;
+}
+
+.hit-me {
+  font-size: 1rem;
+  margin: 1rem;
+  font-family: 'Aldrich', sans-serif;
+  border-radius: 6px;
+}
+
+.stand {
+  font-size: 1rem;
+  font-family: 'Aldrich', sans-serif;
+  border-radius: 6px;
+}
+
+.start {
+  border-radius: 6px;
+  font-family: 'Aldrich', sans-serif;
+}
+
+.player-one {
+  font-size: 1rem;
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
 }
